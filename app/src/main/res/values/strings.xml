@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Perfil ReconoSerId</string>
+    <string name="nombre">Nombre</string>
+    <string name="cedula">Cedula</string>
+    <string name="direccion">Dirección</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="celular">Celular</string>
+    <string name="pais">País</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="guardar_informacion">Guardar Información</string>
+    <string name="title_activity_prueba_maps">Map</string>
+    <string name="seleccionar_foto">Seleccionar foto</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="msgProgressDialog">Consultando, Por Favor Espere.</string>
+    <string name="verificacion_de_estados">Verificacion de Estados</string>
+    <string name="selecci_n_y_toma_de_foto">Selección y toma de foto</string>
+    <string name="almacenar_informacion_en_base_de_datos">Almacenar informacion en base de datos</string>
+    <string name="ubicaci_n_actual">Ubicación actual</string>
+</resources>

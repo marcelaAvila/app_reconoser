@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".EstadoBTWFActivity">
+
+    <Button
+        android:id="@+id/btNext"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txWifi"
+        android:layout_marginTop="20dp"
+        android:text="@string/siguiente" />
+
+    <TextView
+        android:id="@+id/txBluetooth"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txWifi"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txBluetooth"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/verificacion_de_estados"
+        android:textSize="20sp" />
+
+</RelativeLayout>

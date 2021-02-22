@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".UbicacionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/ubicaci_n_actual"
+        android:textSize="20sp" />
+
+    <include
+        android:id="@+id/map_ubicacion"
+        layout="@layout/activity_maps"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/txLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txLLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:text="@string/siguiente"/>
+
+</LinearLayout>
